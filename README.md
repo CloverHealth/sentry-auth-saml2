@@ -1,4 +1,6 @@
-# SAML2 Auth for Sentry
+# SAML2 Auth for Sentry Clover Fork
+
+*NOTE:* The Upstream [MANIFEST.in](https://github.com/getsentry/sentry-auth-saml2/master/MANIFEST.in) is behind we should make a PR to upstream.  
 
 *Note:* SAML2 Authenttication is still currently an experimental feature.
 
@@ -27,3 +29,8 @@ Check the [requirements.txt](https://github.com/CloverHealth/sentry_onpremise/bl
 Refer to the Sentry [Single Sign-On
 documentation](https://docs.sentry.io/learn/sso/) for individual SAML Identity
 Provider configurations.
+
+## Troubleshooting
+
+ * check that the [sentry_auth_saml2](https://github.com/CloverHealth/sentry-auth-saml2) plugin is in [requirements.txt](https://github.com/CloverHealth/sentry_onpremise/blob/master/requirements.txt#L2) 
+ * Review the [MANIFEST.in](https://github.com/CloverHealth/sentry-auth-saml2/master/MANIFEST.in) file reflects the current master branch
