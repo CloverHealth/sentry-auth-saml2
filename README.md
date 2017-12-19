@@ -20,6 +20,7 @@ Identity Provider that conforms to the SAML2 specification.
 ```
 $ pip install https://github.com/getsentry/sentry-auth-saml2/archive/master.zip
 ```
+Check the [requirements.txt](https://github.com/CloverHealth/sentry_onpremise/blob/master/requirements.txt#L2) in the sentry_onpremise repo. 
 
 ## Configuration
 
